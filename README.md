@@ -1,2 +1,2 @@
 # belajarCoding
-# belaja-coding
+# belajar-coding
