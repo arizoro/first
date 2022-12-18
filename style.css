@@ -1,0 +1,91 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+}
+
+.container-navbar{
+    background-color: #333;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    color: white;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+#biodata{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.li-navbar:hover{
+    background-color: rgba(15, 114, 243, 0.385);
+    transition: .2s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+.container-content{
+    height: 80vh;
+    background-color: rgba(211, 211, 211, 0.963);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content{
+    height: 60%;
+    width: 60%;
+}
+
+.a-content{
+    width: 780px;
+    height: 480px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.container-footer{
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer{
+    font-size: 40px;
+    color: white;
+}
